@@ -6,18 +6,45 @@
   body {
     margin: 0;
   }
-  
+  p {
+    font-size: x-large;
+  }
   /* Style the header */
   .header {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
+    color: white;
+  }
+  /* Style the top navigation bar */
+  nav {
+    overflow: hidden;
+    background-color: rgb(9, 112, 52);
+  }
+  
+  /* Style the nav links */
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .in-line li {
+    display: inline;
   }
   
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(9, 112, 52);
   }
   
   /* Style the topnav links */
@@ -71,7 +98,7 @@
     padding: 30px;
     text-align: center;
     background: black;
-    background-image: url(../img/fundo.png);
+    background-image: url(../img/Fundo3.png);
     color: blanchedalmond;
   }
   
@@ -82,7 +109,7 @@
   /* Style the top navigation bar */
   nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(9, 112, 52);;
   }
   
   /* Style the topnav links */
@@ -115,7 +142,7 @@
   aside {
     float: left;
     width: 30%;
-    background-image: url(../img/fundo.png);
+    background-image: url(../img/QuadroDosSonhos1.jpg);
     padding-left: 10px;
     padding-right: 10px;
   }
